@@ -2,5 +2,3 @@ Gaseosa
 galletitas
 pan
 carne
-mandarina 
-flores
