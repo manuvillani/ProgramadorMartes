@@ -1,0 +1,55 @@
+h1 {
+    color: whitesmoke;
+    background-color: purple;
+    border-radius: 10;
+    border-color: black;
+    border: 2px solid white;
+    width: 338px;
+}
+body{background-image: url(fondo.jfif);
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+      border: 2px solid white;
+    }
+    div{
+        background-color: lightslategray;
+        background-repeat:no-repeat;
+      background-position: center center;
+      border: 2px solid purple;
+      width: 160px;
+      height:100px;
+      padding: 10px;
+
+
+    }
+    h3{
+        color: antiquewhite;
+    }
+    h2{
+        color: white;
+    
+    }
+    h4{
+        color: white;
+    }
+    .destacado{
+        font-family: sans-serif;
+        font-style: italic;
+        background-color: lightslategray;
+        background-repeat:no-repeat;
+        background-position: center center;
+        padding: 5px;
+        font-weight: bold;
+        border: 2px solid purple;
+
+    }
+    h3{
+        align-items: center;
+    }
+    img{
+        border-color:white;
+        border: 2px solid white;
+
+
+    }
