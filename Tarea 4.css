@@ -1,0 +1,41 @@
+body{
+    background-color: yellow;
+}
+button{
+    background-color:blue;
+
+    padding: 20px 28px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.boton2{
+   
+    background-color:red;
+}
+.boton3{
+    
+    background-color: green;
+}
+   
+
+.boton1 {
+    background: rgb(0, 17, 168);
+}
+
+.boton1.activo {
+    background: rgb(240, 1, 1);
+    color: white;
+}
+.boton2.activo {
+    background: rgb(30, 236, 11);
+    color: white;
+}
+.boton3.activo {
+    background: rgb(136, 56, 93);
+    color: white;
