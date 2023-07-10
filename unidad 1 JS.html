@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="Tarea 4.css">
+</head>
+
+<body>
+    <div class="Fondo">
+
+    </div>
+    <center>
+
+        <li><button class="boton1" id="azul">Cambiar Fondo azul </button></li>
+        <br></br>
+        <li><button class="boton2" id="Rojo">Cambiar fondo Rojo</button></li>
+        <br></br>
+        <li><button class="boton3" id="Verde">Cambiar fondo Verde</button></li>
+    </center>
+
+
+    <script>
+
+        //const boton1 = document.getElementsByClassName('boton1')[0];
+        //const boton2 = document.getElementsByClassName('boton2')[0];
+        //const boton3 = document.getElementsByClassName('boton3')[0];
+
+        //const azul = document.getElementById('azul');
+        //const Rojo = document.getElementById('Rojo');
+        //const Verde = document.getElementById('Verde');
+
+        /**
+         * classList representa la lista de clases asignadas a un elemento
+         * toggle nos permite "prender" o "apagar" una clase en un objeto
+         * add agrega la clase o clases que le pasemos
+         * remove remueve la clase o clases que le pasemos
+         */
+        //boton1.addEventListener('click', function (e) {
+        //e.currentTarget.classList.toggle('activo');
+        //});
+
+        //boton2.addEventListener('click', function (e) {
+        // e.currentTarget.classList.toggle('activo');
+        //});
+        // boton3.addEventListener('click', function (e) {
+        //e.currentTarget.classList.toggle('activo');
+        //});
+
+        // CSS
+        const boton1 = document.getElementsByClassName('boton1')[0];
+        const boton2 = document.getElementsByClassName('boton2')[0];
+        const boton3 = document.getElementsByClassName('boton3')[0];
+
+        boton1.addEventListener('click', function (e) {
+            document.body.style.backgroundColor = 'blue';
+        });
+
+        boton2.addEventListener('click', function (e) {
+            document.body.style.backgroundColor = 'red';
+        });
+
+        boton3.addEventListener('click', function (e) {
+            document.body.style.backgroundColor = 'green';
+        });
+
+    </script>
+</body>
+
+</html>
